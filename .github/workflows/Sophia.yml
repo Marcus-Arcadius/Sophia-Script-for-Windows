@@ -81,4 +81,4 @@ jobs:
           files: |
             Sophia*.zip
             SHA256SUM
-          body: ${{ steps.read_release.outputs.RELEASE_BODY }}
+          body_path: ${{ steps.read_release.outputs.ReleaseBody }}
